@@ -208,8 +208,13 @@ small {
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
+    transition: .5s;
 }
 .col-5 img:hover {
     filter: grayscale(0);
 }
 /* BRANDS CSS END HERE */
+
+/* FOOTER CSS START HERE */
+
+/* FOOTER CSS END HERE */
