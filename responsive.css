@@ -40,15 +40,43 @@
     .col-1, .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 26px;
+        font-weight: 600;
+    }
   
 }
 
 /* Media query for less than 400 screen size */
 @media only screen and (max-width: 467px) {
+    .row{
+        text-align: center;
+    }
+    .col-1, .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
     .col-2 h1{
         font-size: 40px;
     }
     .row-2 > h2 {
         font-size: 18px;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 26px;
+        font-weight: 600;
     }
 }

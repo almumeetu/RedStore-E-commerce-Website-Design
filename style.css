@@ -361,4 +361,10 @@ input:focus{
     flex-basis: 24%;
     cursor: pointer;
 }
+.single-product h1 {
+    font-size: 47px;
+    font-weight: 600;
+
+}
+
 /* Product Details Page CSS End Here  */
