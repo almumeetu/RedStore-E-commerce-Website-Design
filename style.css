@@ -446,6 +446,7 @@ th:last-child {
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px;
+    overflow: hidden;
 }
 .form-container span {
     font-weight:  bold;
@@ -464,6 +465,7 @@ th:last-child {
     position: absolute;
     top: 130px;
     transition: transform 1s;
+   
 }
 form input {
     width: 100%;
