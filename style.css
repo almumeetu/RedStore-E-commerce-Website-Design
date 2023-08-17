@@ -463,6 +463,7 @@ th:last-child {
     padding: 0 20px;
     position: absolute;
     top: 130px;
+    transition: transform 1s;
 }
 form input {
     width: 100%;
@@ -479,5 +480,23 @@ form .btn {
 }
 form .btn:focus{
     outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
 }
 /* Account-Page CSS End HERe */
